@@ -218,17 +218,7 @@ const addEmployee = () => {
             type: 'input',
             name: 'lastName',
             message: 'What is the last name of the employee?',
-        },
-        // {
-        //     type: 'input',
-        //     name: 'roleId ',
-        //     message: 'What is the role ID?',
-        // },
-        // {
-        //     type: 'input',
-        //     name: 'managerId ',
-        //     message: 'What is the manager ID?',
-        // }
+        }
     ]).then(answers => {
         // get the answer out of the object
         const firstName = answers.firstName;
